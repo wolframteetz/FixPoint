@@ -1,8 +1,8 @@
 # FixPoint
 Homebrew script to fix powerpoint videos by recoding them
 
-# INSTALL
+## Installation
 brew tap wolframteetz/tap; brew install fixpoint
 
-# USAGE
+## Usage
 fixpoint.sh Praesentation1.pptx 
