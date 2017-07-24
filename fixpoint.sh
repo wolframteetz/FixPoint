@@ -1,4 +1,8 @@
 #!/bin/sh
+if [ "$1" == "" ]; then
+  echo "$0: Please provide a .pptx file"
+  exit 1
+fi
 hash zip 2>/dev/null || { echo >&2 “I require zip but it’s not installed.  Aborting.”; exit 1; }
 hash ffmpeg 2>/dev/null || { echo >&2 “I require ffmpeg but it’s not installed.  Aborting.”; exit 1; }
 hash unzip 2>/dev/null || { echo >&2 “I require unzip but it’s not installed.  Aborting.”; exit 1; }
