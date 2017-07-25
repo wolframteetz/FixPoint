@@ -1,5 +1,5 @@
 # FixPoint
-Homebrew script to fix powerpoint videos by recoding them
+Homebrew script to fix powerpoint videos by recoding them to a windows-friendly format
 
 ## Installation
 
